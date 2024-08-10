@@ -24,50 +24,7 @@
         }
     },
 
-    {
-        "id": "16",
-        "name": "Fundesh",
-        "url": "https:\/\/win.fundesh.com.bd\/authSrv\/auth\/generateOtp",
-        "method": "post",
-        "body": "{\r\n  \"msisdn\": \"*****\",\r\n  \"clientId\": \"d2c_client\"\r\n}",
-        "headers": {
-            "content-type": "application\/json"
-        }
-    },
-    {
-        "id": "17",
-        "name": "Circle",
-        "url": "https:\/\/circle.robi.com.bd\/mylife\/appapi\/appcall.php?op=getOTC&pin=13001&app_version=79&msisdn=88*****",
-        "method": "post",
-        "body": "",
-        "headers": {
-            "content-type": "application\/json"
-        }
-    },
 
-    {
-        "id": "21",
-        "name": "Arogga",
-        "url": "https:\/\/api.arogga.com\/v1\/auth\/sms\/send?f=mobile&b=Chrome&v=101.0.4951.54&os=Android&osv=6.0",
-        "method": "post",
-        "body": "mobile=+88*****&fcmToken=&referral=",
-        "headers": {
-            "content-type": "application\/json"
-        }
-    },
-   
-
-    {
-        "id": "26",
-        "name": "ROBI WEB",
-        "url": "https:\/\/webapi.robi.com.bd\/v1\/send-otp",
-        "method": "post",
-        "body": "{\"phone_number\":\"*****\"}",
-        "headers": {
-            "content-type": "application\/json",
-            "Authorization": " Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3dlYmFwaS5yb2JpLmNvbS5iZC92MS90b2tlbiIsImlhdCI6MTY1Mjk2MTAyOSwiZXhwIjoxNjUzMDQ3NDI5LCJuYmYiOjE2NTI5NjEwMjksImp0aSI6IjBXSW9ld0U3bzFJRVNHTVUiLCJzdWIiOiJSb2JpV2ViU2l0ZSJ9.lxP2K3WU36mO8By_dNiVO3VYOSajRofD-Rhqb-0y8ok"
-        }
-    },
 
     {
         "id": "29",
@@ -79,17 +36,8 @@
             "content-type": "application\/json",
             "Authorization": "Bearer 1pake4mh5ln64h5t26kpvm3iri"
         }
-    },
-
-    {
-        "id": "72",
-        "name": "Castomis Api",
-        "url": "https:\/\/www.tokaweb.xyz\/sms.php?number=*****&sms=Hi Good Morning",
-        "method": "get",
-        "body": "",
-        "headers": {
-            "content-type": "application\/json"
-        }
     }
+
+
 ]
 }
