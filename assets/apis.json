@@ -1,8 +1,19 @@
 {
   "info": "Get latest APIs from <https://proxy.neopandora.com/v1.json>",
   "apis": [
-    {
+       {
         "id": "1",
+        "name": "IQRA",
+        "url": "http:\/\/apibeta.iqra-live.com\/api\/v2\/sent-otp\/*****",
+        "method": "get",
+        "body": "",
+        "headers": {
+            "x-user-channel": "apps"
+        }
+    }, 
+    
+    {
+        "id": "2",
         "name": "QuizGiri",
         "url": "https:\/\/developer.quizgiri.xyz\/api\/v2.0\/send-otp?phone=*****&country_code=+880&fcm_token=null",
         "method": "post",
@@ -11,16 +22,7 @@
             "content-type": "application\/json"
         }
     },
-    {
-        "id": "2",
-        "name": "IQRA",
-        "url": "http:\/\/apibeta.iqra-live.com\/api\/v2\/sent-otp\/*****",
-        "method": "get",
-        "body": "",
-        "headers": {
-            "x-user-channel": "apps"
-        }
-    },
+
     {
         "id": "3",
         "name": "Cinematic",
