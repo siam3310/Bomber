@@ -8,7 +8,7 @@
         "method": "get",
         "body": "",
         "headers": {
-            "x-user-channel": "apps"
+            "content-type": "application\/json"
         }
     }, 
     
@@ -19,7 +19,7 @@
         "method": "post",
         "body": "",
         "headers": {
-            "content-type": "application\/json"
+            
         }
     },
 
@@ -33,7 +33,7 @@
             "content-type": "application\/json",
             "Authorization": "Bearer 1pake4mh5ln64h5t26kpvm3iri"
         }
-    },
+    }
 
 
 ]
