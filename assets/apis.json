@@ -11,10 +11,8 @@
             "content-type": "application\/json"
         }
     },
-
-
     {
-        "id": "10",
+        "id": "2",
         "name": "IQRA",
         "url": "http:\/\/apibeta.iqra-live.com\/api\/v2\/sent-otp\/*****",
         "method": "get",
@@ -23,11 +21,8 @@
             "x-user-channel": "apps"
         }
     },
-
-
-
     {
-        "id": "29",
+        "id": "3",
         "name": "Cinematic",
         "url": "https:\/\/api.mygp.cinematic.mobi\/api\/v1\/send-common-otp\/88*****",
         "method": "post",
@@ -36,7 +31,7 @@
             "content-type": "application\/json",
             "Authorization": "Bearer 1pake4mh5ln64h5t26kpvm3iri"
         }
-    }
+    },
 
 
 ]
